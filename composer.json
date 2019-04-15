@@ -1,0 +1,37 @@
+{
+    "name": "ycs77/laravel-form-builder-bs4",
+    "type": "library",
+    "description": "The laravel-form-builder's bootstrap 4 template.",
+    "keywords": [
+        "ycs77",
+        "laravel-form-builder",
+        "form",
+        "form-builder",
+        "bootstrap",
+        "bootstrap 4",
+        "bs4"
+    ],
+    "homepage": "https://github.com/ycs77/laravel-form-builder-bs4",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas Yang",
+            "email": "yangchenshin77@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : "~7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ycs77\\LaravelFormBuilderBs4\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ycs77\\LaravelFormBuilderBs4\\FormBuilderBs4ServiceProvider"
+            ]
+        }
+    }
+}
