@@ -1,6 +1,7 @@
 <?php
 
 return [
+
     'defaults' => [
         'wrapper_class'       => 'form-group',
         'wrapper_error_class' => '',
@@ -14,11 +15,6 @@ return [
         'static' => [
             'field_class' => 'form-control-plaintext',
         ],
-
-        // 'checkable_group' => [
-        //     'wrapper_class' => 'form-group',
-        //     'label_class'   => ' ',
-        // ],
 
         'checkbox' => [
             'wrapper_class' => 'form-check',
@@ -54,6 +50,7 @@ return [
             'field_class'   => 'btn btn-primary',
         ],
     ],
+
     // Templates
     'form'          => 'laravel-form-builder::form',
     'text'          => 'laravel-form-builder::text',
@@ -75,6 +72,7 @@ return [
     'default_namespace' => '',
 
     'custom_fields' => [
-        // 'checkable_group' => '\Ycs77\LaravelFormFieldType\Fields\CheckableGroupType',
-    ]
+        //
+    ],
+
 ];

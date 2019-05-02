@@ -15,11 +15,6 @@ return [
             'field_class' => 'form-control-plaintext',
         ],
 
-        // 'checkable_group' => [
-        //     'wrapper_class' => 'form-group',
-        //     'label_class'   => ' ',
-        // ],
-
         'checkbox' => [
             'wrapper_class' => 'form-check',
             'field_class'   => 'form-check-input',
@@ -54,20 +49,21 @@ return [
             'field_class'   => 'btn btn-primary',
         ],
     ],
+
     // Templates
-    'form'          => 'laravel-form-builder::form',
-    'text'          => 'laravel-form-builder::text',
-    'textarea'      => 'laravel-form-builder::textarea',
-    'button'        => 'laravel-form-builder::button',
-    'buttongroup'   => 'laravel-form-builder::buttongroup',
-    'radio'         => 'laravel-form-builder::radio',
-    'checkbox'      => 'laravel-form-builder::checkbox',
-    'select'        => 'laravel-form-builder::select',
-    'choice'        => 'laravel-form-builder::choice',
-    'repeated'      => 'laravel-form-builder::repeated',
-    'child_form'    => 'laravel-form-builder::child_form',
-    'collection'    => 'laravel-form-builder::collection',
-    'static'        => 'laravel-form-builder::static',
+    'form'        => 'laravel-form-builder::form',
+    'text'        => 'laravel-form-builder::text',
+    'textarea'    => 'laravel-form-builder::textarea',
+    'button'      => 'laravel-form-builder::button',
+    'buttongroup' => 'laravel-form-builder::buttongroup',
+    'radio'       => 'laravel-form-builder::radio',
+    'checkbox'    => 'laravel-form-builder::checkbox',
+    'select'      => 'laravel-form-builder::select',
+    'choice'      => 'laravel-form-builder::choice',
+    'repeated'    => 'laravel-form-builder::repeated',
+    'child_form'  => 'laravel-form-builder::child_form',
+    'collection'  => 'laravel-form-builder::collection',
+    'static'      => 'laravel-form-builder::static',
 
     // Remove the laravel-form-builder:: prefix above when using template_prefix
     'template_prefix'   => '',
@@ -75,6 +71,7 @@ return [
     'default_namespace' => '',
 
     'custom_fields' => [
-        // 'checkable_group' => '\Ycs77\LaravelFormFieldType\Fields\CheckableGroupType',
-    ]
+        //
+    ],
+
 ];
