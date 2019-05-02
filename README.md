@@ -16,7 +16,7 @@ Via Composer
 composer require ycs77/laravel-form-builder-bs4
 ```
 
-Publish config & templates
+Publish config & templates (Will overwrite the Laravel form builder's original config and views)
 
 ```bash
 php artisan vendor:publish --tag=laravel-form-builder-bs4
