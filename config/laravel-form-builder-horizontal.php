@@ -1,6 +1,7 @@
 <?php
 
 return [
+
     'defaults' => [
         'wrapper_class'       => 'form-group row',
         'wrapper_error_class' => '',
