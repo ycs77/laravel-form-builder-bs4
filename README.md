@@ -28,6 +28,8 @@ Or publish horizontal form
 php artisan vendor:publish --tag=laravel-form-builder-bs4-horizontal
 ```
 
+> If it doesn't work, you can add `--force` attribute. BUT, the original Laravel form builder's config and views in your repository CAN NOT be retrieved. Please think twice.
+
 [ico-version]: https://img.shields.io/packagist/v/ycs77/laravel-form-builder-bs4.svg?style=flat
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat
 [ico-downloads]: https://img.shields.io/packagist/dt/ycs77/laravel-form-builder-bs4.svg?style=flat
